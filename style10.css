@@ -278,7 +278,11 @@
     .about-text {
         color: var(--white-color);
         font-family: "Poppins";
-        font-size: 0.95em;
+    }
+
+    .about-text h3{
+       font-weight: 500;
+       font-size: 0.95em;
         line-height: 1.6rem;
         word-spacing: 5px ;
         letter-spacing: 1.1px;
@@ -423,6 +427,13 @@
 
     /* ------------- CONTACT ------------- */
 
+    #contact h4{
+      color: white;
+      display: flex;
+      justify-content: center;
+      font-weight: 200;
+    }
+
     .contact-wrapper .cardAnimation{
       transform:scale(.8) rotate(-4deg);
     }
@@ -436,6 +447,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(150px, 15fr));
       gap: 3rem;
+      margin-top: 2rem;
     }
     .contact-box {
         background: var(--bg-secondary);
@@ -451,6 +463,10 @@
         border-radius: 12px;
         box-shadow: 0 3px 6px var(--text-primary);
         overflow: hidden;
+    }
+
+    .contact-box a span {
+      text-decoration: none;
     }
 
     .contact-box span{
@@ -471,6 +487,7 @@
     }
 
     /* ------------- FOOTER ------------- */
+
     footer {
       background: var(--bg-primary);
       color: #aaa;
@@ -511,10 +528,10 @@
     }
 
     .footerContact{
-      margin-right: 10rem;
+      margin-right: 15rem;
     }
     .footerLocation{
-      margin-left: 10rem;
+      margin-left: 15rem;
     }
 
     .copyright {
