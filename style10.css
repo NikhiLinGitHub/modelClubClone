@@ -284,7 +284,7 @@
         letter-spacing: 1.1px;
     }
 
-   .about-text span {
+   .about-text span a{
         color: var(--text-tertiary);
         font-weight: 600;
         text-decoration: none;
@@ -316,6 +316,12 @@
         height: 350px;
         object-fit: cover;
     }
+
+    .card-grid a{
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
     .card h3 {
         padding: 1rem;
         display: flex;
@@ -473,3 +479,48 @@
       font-size: 0.85rem;
     }
     footer a { color: var(--text-primary); }
+
+    
+    .footer {
+      background: #222;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 40px 20px 20px;
+    }
+
+    .footer div {
+      margin-bottom: 20px;
+    }
+
+    .footer h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .footer p, .footer a {
+      margin: 4px 0;
+      font-size: 14px;
+      color: var(--white-color);
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footerContact{
+      margin-right: 10rem;
+    }
+    .footerLocation{
+      margin-left: 10rem;
+    }
+
+    .copyright {
+      text-align: center;
+      padding: 10px;
+      background: #111;
+      color: #999;
+      font-size: 13px;
+    }

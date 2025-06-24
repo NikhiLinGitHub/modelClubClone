@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Events</title>
+  <link rel="stylesheet" href="style10.css">
+  <link rel="stylesheet" href="styleOurEvents.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <header>
+    <nav class="main">
+    <div class="left">
+      <a href="./home10.html"><img src="https://modelclubbits.com/assets/Clogo.png" alt="Logo 1"></a>
+      <a href="https://www.bitsindri.ac.in/"><img src="https://modelclubbits.com/assets/bitlogo.png" alt="Logo 2"></a>
+    </div>
+    <div class="right">
+      <a href="./home10.html" class="nav-item">Home</a> 
+      <a href="./ourEvents.html" class="nav-item">Our Events</a>
+      <a href="#sandhaan" class="nav-item">SANDHAAN'23</a>
+      <a href="https://docs.google.com/forms/u/0/d/1lgdyn6emNCHAJ9bGIOlSY8l1aeXVuKDLzPhLRn1Pb9s/viewform?edit_requested=true" class="nav-item">Join Us</a>
+      <div class="dropdown-wrapper" data-dropdown="seminars">
+        <button class="nav-item dropbtn">Seminars</button>
+        <div class="dropdown">
+          <a href="#robotics">Robotics</a>
+          <a href="#product-mgmt">Product Management</a>
+        </div>
+      </div>
+      <div class="dropdown-wrapper" data-dropdown="members">
+        <button class="nav-item dropbtn">Our Members</button>
+        <div class="dropdown">
+          <a href="#post-bearers">Our Post Bearers</a>
+          <div class="dropdown-wrapper" data-dropdown="research">
+            <button class="nav-item dropbtn">Research</button>
+            <div class="dropdown">
+              <a href="#iits">IITs</a>
+              <a href="#foreign">Foreign</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </nav>
+    </header>
+
+    <main>
+        <div class="events-grid">
+    <div class="cardEvents">
+      <img src="https://picsum.photos/seed/1/500/500" alt="Sandhaan">
+      <span class="title">sandhaan</span>
+    </div>
+
+    <div class="cardEvents">
+        <a href="https://model-club-bit-sindri.github.io/Case-O-Hiest/">
+      <img src="#" alt="Case‑O‑Heist">
+      <span class="title">case‑o‑heist</span>
+        </a>
+    </div>
+
+    <div class="cardEvents">
+      <img src="https://picsum.photos/seed/3/500/500" alt="E‑Hackaathon">
+      <span class="title">e‑hackaathon</span>
+    </div>
+
+    <div class="cardEvents">
+      <img src="https://picsum.photos/seed/4/500/500" alt="Model Menternship Program">
+      <span class="title">model menternship program</span>
+    </div>
+
+    <div class="cardEvents">
+      <img src="https://picsum.photos/seed/5/500/500" alt="De‑Vision">
+      <span class="title">de‑vision</span>
+    </div>
+
+    <div class="cardEvents">
+      <img src="https://picsum.photos/seed/6/500/500" alt="Virtual Science & Technology Fair">
+      <span class="title">virtual science & technology fair</span>
+    </div>
+
+    <div class="cardEvents">
+      <img src="https://picsum.photos/seed/7/500/500" alt="Listiquiz">
+      <span class="title">listiquiz</span>
+    </div>
+
+    <div class="cardEvents">
+      <img src="https://picsum.photos/seed/8/500/500" alt="WhatIf">
+      <span class="title">whatif</span>
+    </div>
+
+    <div class="cardEvents">
+      <img src="https://picsum.photos/seed/9/500/500" alt="The CEO 3.0">
+      <span class="title">the ceo 3.0</span>
+    </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div>
+              <h3>Location</h3>
+              <p>BIT Sindri, Dhanbad</p>
+              <p>Jharkhand, India - 828123</p>
+            </div>
+            <div>
+              <h3>Get in Touch</h3>
+              <p>📞 +91 98765 43210</p>
+              <p>📞 +91 87654 32109</p>
+            </div>
+
+        </div>
+        <div class="copyright">
+             © <span id="yr">2025</span> Model Club, BIT Sindri. All Rights Reserved.
+        </div>
+    </footer>
+
+  <script>
+    // Optional: reload with fresh random images each visit
+    document.querySelectorAll('.cardEvents img').forEach((img, i) => {
+      // Picsum allows random images by changing the seed
+      const seed = Math.floor(Math.random() * 1000) + i;
+      img.src = `https://picsum.photos/seed/${seed}/500/500`;
+    });
+  </script>
+</body>
+</html>
