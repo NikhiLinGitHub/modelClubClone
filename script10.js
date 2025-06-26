@@ -1,6 +1,6 @@
 
   
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
     const wrappers = document.querySelectorAll('.dropdown-wrapper');
 
     wrappers.forEach(wrapper => {
